@@ -1,0 +1,67 @@
+.sidenav {
+  width: 250px;
+  background-color: #4682b4;
+  height: 100vh;
+  padding: 10px;
+position: fixed;
+margin-top: 10px;
+/* border-right-style: solid;
+border-color: #ffa500;
+border-width: 4px; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+.menu {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  color: white;
+  
+}
+
+.menu:hover {
+  /* background-color: #ddd; */
+  color:#ffa500;
+
+}
+
+.menu.active {
+  background-color: #e4dadb;
+  border-radius: 5px;
+  color:#ffa500;
+}
+
+.submenu {
+  padding-left: 20px;
+  display: block;
+
+
+}
+
+.submenu li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  list-style-type: none;
+  
+}
+li{
+  border-bottom: 1px solid #ccc  ;
+ 
+}
+
+.submenu a {
+  text-decoration: none;
+  color: white;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+  color: #ffa500;
+}
