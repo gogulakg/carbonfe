@@ -1,26 +1,26 @@
 import http from "./httpService";
-const djangoApiUrl = 'http://api2.tracepharm.io:8000'
+const djangoApiUrl = 'http://54.164.164.202:8000'
 
 export const getProductList = () => {
-  return http.get('http://api2.tracepharm.io:8000/carbon/');
+  return http.get('http://54.164.164.202:8000/carbon/');
 };
 
 export const getMaterialsList = () => {
-  return http.get('http://api2.tracepharm.io:8000/carbon_table/');
+  return http.get('http://54.164.164.202:8000/carbon_table/');
 };
 
 export const getElementGroupList = () => {
-  return http.get('http://api2.tracepharm.io:8000/element/');
+  return http.get('http://54.164.164.202:8000/element/');
 };
 
 export const getStructuralList = () => {
-  return http.get('http://api2.tracepharm.io:8000/structural/');
+  return http.get('http://54.164.164.202:8000/structural/');
 };
 
 export const getCarbonImprintData = () => {
-  return http.get('http://api2.tracepharm.io:8000/carbon');
+  return http.get('http://54.164.164.202:8000/carbon');
 };
 
 export const postSelectedSpecsData = (data) => {
-  return http.post('http://api2.tracepharm.io:8000/carbon_input/', data);
+  return http.post('http://54.164.164.202:8000/carbon_input/', data);
 };

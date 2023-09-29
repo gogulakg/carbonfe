@@ -7,7 +7,7 @@ function DisCarboncalc() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    fetch('http://api2.tracepharm.io:8000/carbon/')
+    fetch('http://54.164.164.202:8000/carbon/')
       .then(response => response.json())
       .then(json => setData(json));
   }, []);

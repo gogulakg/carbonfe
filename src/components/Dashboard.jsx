@@ -19,7 +19,7 @@ function Dashboard()
           const getmedal=[];
           const getEmbodied=[];
 
-        const reqData= await fetch("http://api2.tracepharm.io:8000/carbon/"); 
+        const reqData= await fetch("http://54.164.164.202:8000/carbon/"); 
         const resData= await reqData.json();
         for(let i=0; i<resData.length; i++)
         {
@@ -42,7 +42,7 @@ function Dashboard()
              const getmedal2=[];
              const getEmbodied2=[];
    
-           const reqData= await fetch("http://api2.tracepharm.io:8001/carbon/"); 
+           const reqData= await fetch("http://54.164.164.202:8000/carbon/"); 
            const resData= await reqData.json();
            for(let i=0; i<resData.length; i++)
            {

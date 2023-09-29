@@ -34,7 +34,7 @@ const Show = () => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://api2.tracepharm.io:8009/Product/', formData, {
+      const response = await axios.post('http://54.164.164.202:8000/Product/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

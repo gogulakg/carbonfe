@@ -31,14 +31,14 @@ const Products = () => {
             </Form.Select>
         </Form.Group>
 
-        <Form.Group
+        {/* <Form.Group
           controlId="productCategory"
           style={{ display: "flex", gap: "10px" }}
         >
           <Form.Label> Address-Number or Name</Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
-        </Form.Group>
+        </Form.Group> */}
 
         <Form.Group
           controlId="productDescription"
@@ -52,7 +52,7 @@ const Products = () => {
           controlId="productDescription"
           style={{ display: "flex", gap: "10px" }}
         >
-          <Form.Label>Postcode</Form.Label>
+          <Form.Label>Number</Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
         </Form.Group>
@@ -61,7 +61,7 @@ const Products = () => {
           controlId="productPrice"
           style={{ display: "flex", gap: "10px" }}
         >
-          <Form.Label> City</Form.Label>
+          <Form.Label> City    </Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
         </Form.Group>
@@ -70,7 +70,7 @@ const Products = () => {
           controlId="productDimensions"
           style={{ display: "flex", gap: "10px" }}
         >
-          <Form.Label>State</Form.Label>
+          <Form.Label>State  </Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
         </Form.Group>
@@ -79,7 +79,7 @@ const Products = () => {
           controlId="productWeight"
           style={{ display: "flex", gap: "10px" }}
         >
-          <Form.Label>Country</Form.Label>
+          <Form.Label>Country </Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
         </Form.Group>
@@ -88,7 +88,7 @@ const Products = () => {
           controlId="productGtin"
           style={{ display: "flex", gap: "10px" }}
         >
-          <Form.Label>Telephone</Form.Label>
+          <Form.Label>Phone</Form.Label>
 
           <Form.Control type="text" placeholder="" style={{ width: "50%" }} />
         </Form.Group>
@@ -106,14 +106,14 @@ const Products = () => {
           <Button
             variant="primary"
             type="submit"
-            style={{ width: "50%", justifyContent: "center" }}
+            style={{ width: "20%", justifyContent: "center" }}
           >
             Save
           </Button>
 
           <Button
             variant="warning"
-            style={{ width: "50%", justifyContent: "center" }}
+            style={{ width: "20%", justifyContent: "center" }}
           >
             Edit
           </Button>

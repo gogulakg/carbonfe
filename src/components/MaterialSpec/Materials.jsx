@@ -173,8 +173,8 @@ export const Material = () => {
 export default Material
 
 
-// http://api2.tracepharm.io:8000/carbon_table/ -> material specification
-// http://api2.tracepharm.io:8000/structural/ -> structural
-// http://api2.tracepharm.io:8000/element/ -> element
+// http://54.164.164.202:8000/carbon_table/ -> material specification
+// http://54.164.164.202:8000/structural/ -> structural
+// http://54.164.164.202:8000/element/ -> element
 
-// on save: post request to: http://api2.tracepharm.io:8000/carbon_input/
+// on save: post request to: http://54.164.164.202:8000/carbon_input/
